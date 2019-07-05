@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHubSearch</title>
+</head>
+<body>
+    <div id="divInputs">
+        <input type="text" id="inputNome" placeholder="Nome do usuário"/>
+        <button id="buttonAdd" onclick="buscarNomeUsuarioGit();">Adicionar</button>
+    </div>
+    <div id="divTitle">
+        <h3 id="nomeUsuario">Repositorios do usuário</h3>
+    </div>
+    <div id="divList">
+        <ul id="listRepo">
+        </ul>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main2.js"></script>
+</body>
+</html>
